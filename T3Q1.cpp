@@ -3,6 +3,10 @@
 using namespace std;
 
 struct Book
+{
+    string title;
+    float price;
+};
 
 int main()
 {
@@ -12,4 +16,7 @@ int main()
 
     b2.title = "The smart detective";
     b2.price = 151.0;
+
+    cout << endl
+         << b2.title;
 }
